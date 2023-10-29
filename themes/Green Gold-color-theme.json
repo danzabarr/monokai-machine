@@ -17,6 +17,8 @@
 				
 				// Function Names, Constructors and Destructors
 				"entity.name.function",
+
+				
 			],
 			"settings": {
 				"foreground": "#f2fffcdc"
@@ -26,10 +28,8 @@
 		{
 			"name": "Faded Color",
 			"scope": [
-				// Namespaces
-				"entity.name.namespace",
 				
-				// Punctruation
+				// Punctuation
 				"punctuation",
 
 				// Braces
@@ -41,17 +41,20 @@
 				"storage.type.modifier.access.private.cpp",
 
 				// Class and Struct
-				"storage.type.class", "storage.type.struct",
+				"storage.type.class", 
+				"storage.type.struct", 
+				"storage.type.enum",
+				"storage.type.namespace",
+
+				//using
+				"keyword.other.using",
 
 				// Preprocessor Directives #define, #include
 				"keyword.control.directive",
 				"punctuation.definition.directive",
 				"meta.preprocessor",
 
-				// Inheritance, Const, Static, Volatile, Mutable
-				"storage.modifier",
-
-
+				
 				// Operators
 				"keyword.operator",
 				"entity.name.function.operator.cpp",
@@ -69,6 +72,7 @@
 				// Comments
 				"comment",
 				"punctuation.definition.comment",
+				
 			],
 			"settings": {
 				"foreground": "#9af79d89"
@@ -87,6 +91,7 @@
 				"fontStyle": "bold"
 			}
 		},
+
 		{
 			"name": "Primary Accent Color",
 			"scope": [
@@ -95,7 +100,10 @@
 
 				// Type names
 				"entity.name.type", 
-				"storage.type"
+				"storage.type.primitive",
+
+				// Namespaces
+				"entity.name.namespace",
 			],
 			"settings": {
 				"foreground": "#ffed72"
@@ -110,11 +118,30 @@
 				// String Literals
 				"string.quoted","punctuation.definition.string",
 				
+				
 			],
 			"settings": {
 				"foreground": "#ffb83c"
 			}
 		},
+		{
+			"name": "Tertiary Accent Color",
+			"scope": [
+				
+				// Templates
+				"storage.type.template",
+				
+				// Inheritance, Const, Static, Volatile, Mutable
+				"storage.modifier",
+
+
+
+
+			],
+			"settings": {
+				"foreground": "#538ccd"
+			}
+		}
 
 	],
 	
