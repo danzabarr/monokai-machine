@@ -122,6 +122,11 @@
 
 		"foreground": "#f2fffcdc",
 
+		// Selection Highlighting
+		"editor.lineHighlightBackground": "#f2fffc0c",
+		"editor.lineHighlightBorder": "#00000000",
+		"editor.selectionBackground": "#ffed7230",
+
 		// Activity Bar
 		"activityBar.background": "#161B1E",
 		"activityBar.foreground": "#f2fffcdc",
