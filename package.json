@@ -1,0 +1,21 @@
+{
+  "name": "monokai-machine",
+  "displayName": "monokai-machine",
+  "description": "Color theme based on Monokai Pro (Filter Machine) which draws code editor with colours matching the UI.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Green Gold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Green Gold-color-theme.json"
+      }
+    ]
+  }
+}
